@@ -680,9 +680,12 @@ case 'naruto': case 'kaneki': case 'shinomiya': case 'kurama': case 'rimuru': ca
                     let { pinterest } = require('./lib/scraper')
                 anu = await pinterest(text)
                 result = anu[Math.floor(Math.random() * anu.length)]
-sendFileFromUrl(m.chat, `${result}`,`Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
+sendFileFromUrl(m.chat, `${result}`,`✅ Sukses :)`)
                 break
 case 'sewabot':
+hisoka.sendMessage(m.chat, { text : iklan })
+break
+case 'sewa':
 hisoka.sendMessage(m.chat, { text : iklan })
 break
 case 'donate':
@@ -694,8 +697,6 @@ var aprian = `
 *•DANA : ${setting.dana}*
 *•OVO : ${setting.ovo}*
 *•PULSA : ${setting.pulsa}*
-*•BELUM PREMIUM SCAN DIBAWAH*
-*•LINK : https://telegra.ph/file/d36414dd2d16f0b6286af.jpg*
 
 *Q.S Az-Zalzalah Ayat 7 :*
 
@@ -1753,7 +1754,7 @@ case 'audioyt': case 'ytaudio': {
     m.reply(mess.wait)
           let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
           let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
-          sendFileFromUrl(m.chat,`${wipi}`,`Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
+          sendFileFromUrl(m.chat,`${wipi}`,`✅ Sukses :)`)
 break
 	    case 'ppcp': {
                 m.reply(mess.wait)
@@ -1832,7 +1833,7 @@ break
             case 'blackpink':
 if (!q) return m.reply(`Example : ${prefix + command} Riyo Xdz`)
 anu = await fetchJson (`https://app-botpri.herokuapp.com/api/textpro/black-pink?apikey=Fxc7&text=${q}`)
-sendFileFromUrl(m.chat,`${anu.result}`,`Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
+sendFileFromUrl(m.chat,`${anu.result}`,`✅ Sukses :)`)
 break
 case 'wolflogo':
 if (!q) return m.reply(`Example : ${prefix + command} Riyo|Xdz`)
@@ -1840,7 +1841,7 @@ var gh = body.slice(10)
 var gli = gh.split("|")[0];
 var tch = gh.split("|")[1];
 anu = await fetchJson (`https://app-botpri.herokuapp.com/api/textpro/logo-wolf?apikey=Fxc7&text=${gli}&text2=${tch}`)
-sendFileFromUrl(m.chat,`${anu.result}`,`Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
+sendFileFromUrl(m.chat,`${anu.result}`,`✅ Sukses :)`)
 break
 case 'pornhub':
 if (!q) return m.reply(`Example : ${prefix + command} Riyo|Xdz`)
@@ -1848,17 +1849,17 @@ var po = body.slice(9)
 var as = po.split("|")[0];
 var yu = po.split("|")[1];
 anu = await fetchJson (`https://api-bot-xyz.herokuapp.com/api/textpro/porn-hub?apikey=Aprii&text1=${as}&text2=${yu}`)
-sendFileFromUrl(m.chat,`${anu.result}`,`Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
+sendFileFromUrl(m.chat,`${anu.result}`,`✅ Sukses :)`)
 break
 case 'leaves':
 if (!q) return m.reply(`Example : ${prefix + command} Riyo Xdz`)
 anu = await fetchJson (`https://app-botpri.herokuapp.com/api/textpro/natural-leaves?apikey=Fxc7&text=${q}`)
-sendFileFromUrl(m.chat,`${anu.result}`,`Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
+sendFileFromUrl(m.chat,`${anu.result}`,`✅ Sukses :)`)
 break
 case 'gradasi3d':
 if (!q) return m.reply(`Example : ${prefix + command} Riyo Xdz`)
 anu = await fetchJson(`https://api-bot-xyz.herokuapp.com/api/textpro/3d-gradient?apikey=Aprii&text=${q}`)
-sendFileFromUrl(m.chat,`${anu.result}`,`Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
+sendFileFromUrl(m.chat,`${anu.result}`,`✅ Sukses :)`)
 break
 case 'shadow':
 case 'romantic':
@@ -2212,7 +2213,7 @@ case 'tiktokwm':
              if (!q.includes('tiktok.com')) return m.reply(`masukkan link video!!`)
             m.reply(mess.wait)
              anu = await TiktokDownloader(`${q}`)
-            .then((data) => { sendFileFromUrl(m.chat, data.result.nowatermark,`Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`) })
+            .then((data) => { sendFileFromUrl(m.chat, data.result.nowatermark,`✅ Sukses :)`) })
             .catch((err) => { m.reply(String(err)) })
              break
 case 'ytstalk': {
@@ -2267,7 +2268,7 @@ case 'ttnowm': case 'tiktoknowm':
              if (!q.includes('tiktok.com')) return m.reply(`masukkan link video!!`)
             m.reply(mess.wait)
              anu = await TiktokDownloader(`${q}`)
-            .then((data) => { sendFileFromUrl(m.chat, data.result.nowatermark,`Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`) })
+            .then((data) => { sendFileFromUrl(m.chat, data.result.nowatermark,`✅ Sukses :)`) })
             .catch((err) => { m.reply(String(err)) })
              break
 case 'tiktokaudio':
@@ -2674,31 +2675,31 @@ case 'thighs':
 case 'yuri':
 m.reply(mess.wait)
 anu = await fetchJson (`https://api-aprilia.herokuapp.com/api/nsfw/${command}?apikey=Alphabot`)
-sendFileFromUrl(m.chat,`${anu.result}`,`Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
+sendFileFromUrl(m.chat,`${anu.result}`,`✅ Sukses :)`)
 break
 case 'eroneko':
-sendFileFromUrl(m.chat, `https://api.dhamzxploit.my.id/api/nsfw/neko`, `Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
+sendFileFromUrl(m.chat, `https://api.dhamzxploit.my.id/api/nsfw/neko`, `✅ Sukses :)`)
 break
 case 'neko':
-sendFileFromUrl(m.chat, `https://api.dhamzxploit.my.id/api/neko`, `Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
+sendFileFromUrl(m.chat, `https://api.dhamzxploit.my.id/api/neko`, `✅ Sukses :)`)
 break
 case 'futanari':
 buffer = await getBuffer(`https://api.dapuhy.xyz/api/nsfw/nsfwfutanari?apikey=RiyoXdz`)
-hisoka.sendMessage(m.chat, {image : buffer, caption : `Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`}, {quoted : fgif})
+hisoka.sendMessage(m.chat, {image : buffer, caption : `✅ Sukses :)`}, {quoted : fgif})
 break
 case 'asupan':
 m.reply(mess.wait)
-sendFileFromUrl(m.chat, `https://api.zacros.my.id/asupan/random`, `Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
+sendFileFromUrl(m.chat, `https://api.zacros.my.id/asupan/random`, `✅ Sukses :)`)
 break
 case 'bocil':
 case 'santuy':
-case 'rikagusriani':
 case 'ghea':
+case 'rikagusriani':
 case 'ukty':
 m.reply (mess.wait)
 anu = await fetchJson (`https://api-aprilia.herokuapp.com/api/asupan/${command}?apikey=Alphabot`)
-sendFileFromUrl(m.chat, `${anu.result.url}`, `Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
-break
+sendFileFromUrl(m.chat, `${anu.result.url}`, `✅ Sukses :)`)
+            break
             case 'ping': case 'botstatus': case 'statusbot': {
                 const used = process.memoryUsage()
                 const cpus = os.cpus().map(cpu => {
@@ -2753,7 +2754,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 case 'inori':
           let sau = (await axios.get(`https://raw.githubusercontent.com/qisyana/senku/main/storages/inori-pic.json`)).data
           let pii = sau[Math.floor(Math.random() * (sau.length))]
-          sendFileFromUrl(m.chat,`${pii}`,`Nieh By *Riyo Xdz*\nJangan Lupa Subscribe *RIYO XDZ*\nYT : https://bit.ly/3GtHDNH`)
+          sendFileFromUrl(m.chat,`${pii}`,`✅ Sukses :)`)
 break
 case 'menu': case 'help':{
 txt = `Hai kak ${pushname}
