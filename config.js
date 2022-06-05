@@ -33,7 +33,7 @@ global.packname = '@XyChann'
 global.author = 'XyChann'
 global.sessionName = 'elaina'
 global.prefa = ['','!','.','🐦','🐤','🗿']
-global.sp = '️'
+global.sp = '️♥️'
 global.mess = {
     success: '✓ Success',
     admin: 'Fitur Khusus Admin Group!',
