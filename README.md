@@ -57,5 +57,7 @@ $ pkg install nodejs
 $ pkg install imagemagick
 $ pkg install ffmpeg
 $ pkg install libwebp
+$ git clone https://github.com/xychaann/Elaina-Md
+$ cd Elaina-Md
 $ npm start
 ```
