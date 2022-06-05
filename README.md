@@ -29,20 +29,23 @@
   <img src="https://github.com/xychaann/xychaann/blob/master/thuychaang.gif" />
 </p>
 
-# Instalasi
-## Heroku Buildpack
-```bash
-<p><a href="https://heroku.com/deploy?template="https://github.com/xychaann/elaina-md"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+## FOR DEPLOY HEROKU USER
 
+<p><a href="https://heroku.com/deploy?template="https://github.com/xychaann/Elaina-Md"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+
+## Buildpack Heroku
+```bash
 heroku/nodejs
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
+
 ## For Termux
 ```ts
-apt update && apt upgrade
-pkg install bash git
-git clone https://github.com/zeeone-ofc/Alphabot-Md
-cd Alphabot-Md
-bash install.sh
+$ pkg update && upgrade
+$ pkg install nodejs
+$ pkg install imagemagick
+$ pkg install ffmpeg
+$ pkg install libwebp
+$ npm start
 ```
