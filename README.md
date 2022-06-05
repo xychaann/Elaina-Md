@@ -1,4 +1,13 @@
 <p align="center">
+    <a href="https://chat.whatsapp.com/GikyZutq2lc7ajrz5RZtex">
+        <img
+            src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=Elaina+Multi+Device"
+            alt="XyChann`"
+        />
+    </a>
+</p>
+
+<p align="center">
  <img src="https://github.com/xychaann.png" />
 </p>
 
@@ -29,15 +38,16 @@
   <img src="https://github.com/xychaann/xychaann/blob/master/thuychaang.gif" />
 </p>
 
-## FOR DEPLOY HEROKU USER
+## Heroku Buildpack
 
-<p><a href="https://heroku.com/deploy?template="https://github.com/xychaann/Elaina-Md"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+Click the deploy icon below !
 
-## Buildpack Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xychaann/Elaina-Md)
+
 ```bash
-heroku/nodejs
-https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
-https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+ > heroku/nodejs
+ > https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+ > https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 
 ## For Termux
