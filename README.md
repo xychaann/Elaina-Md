@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://chat.whatsapp.com/GikyZutq2lc7ajrz5RZtex">
         <img
-            src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=Elaina+Multi+Device"
+            src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=WhatsApp+Bot+Elaina+Multi+Device"
             alt="XyChann`"
         />
     </a>
