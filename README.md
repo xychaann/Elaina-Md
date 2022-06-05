@@ -1,4 +1,5 @@
-img src="https://github.com/xychaann.png" />
+<p align="center">
+ <img src="https://github.com/xychaann.png" />
 </p>
 
 <p align="center">
