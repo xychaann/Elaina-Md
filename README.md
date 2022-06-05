@@ -1,89 +1,31 @@
-# RIYO XDZ
-Script WhatsApp Bot Multi Device
-
-## NOTE
-This Script is for everyone, not for Sale
+img src="https://github.com/xychaann.png" />
+</p>
 
 <p align="center">
-	<img src="https://telegra.ph/file/adf284dd3c15215cc088f.jpg" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
+
+- 👤 My name is xychaann
+- 💌 I am 16 years old 
+- 👨‍💻 I am not programmer
+
 </p>
-<h1 align="center">Hisoka-Morou</h1>
 
-This is Script of WhatsApp multi device, working with [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
+------
+### Connect with me ☎️
+<p align="center">
+  <a href="https://instagram.com/hydraaml_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+  <a href="https://wa.me/6282189975711"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <a href="https://www.facebook.com/ditdit.utina"><img src="https://img.shields.io/badge/Facebook-%234267B2.svg?&style=for-the-badge&logo=facebook&logoColor=white" />
+  <a href="https://t.me/xychaann"><img src="https://img.shields.io/badge/Telegram-%230088cc.svg?&style=for-the-badge&logo=telegram&logoColor=white" /> <br>
+  <a href="https://youtube.com/channel/UCsT1hWQcTO4QAvdX0eIhkZg"><img src="https://img.shields.io/badge/YouTube-Xychaann`-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000&link=https://youtube.com/channel/UCsT1hWQcTO4QAvdX0eIhkZg" /><br>
+  <a name=ZeeoneOfc&label=VIEWS&style=flat-square&color=orange" />
+  <a href="https://github.com/zeeoneofc"><img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" /> 
+  <a href="https://youtube.com/channel/UCsT1hWQcTO4QAvdX0eIhkZg"><img src="https://img.shields.io/youtube/channel/subscribers/UCsT1hWQcTO4QAvdX0eIhkZg?style=social" /> <br>
+  <a href="https://komarev.com/ghpvc/?username=xychaann&color=blue&style=flat-square&label=Profile+Views"><img title="Watching" src="https://komarev.com/ghpvc/?username=xychaann&color=green&style=flat-square&label=Profile+View"></a>
+</p>
 
-## My Project
-WhatsApp Bot normal [`DikaArdnt/Hisoka-Morrow`](https://github.com/DikaArdnt/Hisoka-Morrow)
-WhatsApp Bot Multi Device [`DikaArdnt/Hisoka-Morou`](https://github.com/DikaArdnt/Hisoka-Morou)
+### @thuychaang
+<p align="center">
+  <img src="https://github.com/xychaann/xychaann/blob/master/thuychaang.gif" />
+</p>
 
-
-## UNTUK PENGGUNA WINDOWS/RDP
-
-* Unduh & Instal Git [`Klik Disini`](https://git-scm.com/downloads)
-* Unduh & Instal NodeJS [`Klik Disini`](https://nodejs.org/en/download)
-* Unduh & Instal FFmpeg [`Klik Disini`](https://ffmpeg.org/download.html) (**Jangan Lupa Tambahkan FFmpeg ke variabel lingkungan PATH**)
-
-
-```bash
-git clone https://github.com/DikaArdnt/Hisoka-Morou
-cd Hisoka-Morou
-npm install
-```
-
-## HOW TO CONNECT TO MONGODB WHEN RUN IN HEROKU
-
-* Create account and database in mongodb atlas [`watch here`](https://youtu.be/rPqRyYJmx2g)
-* when you already have a database, you just need to take mongourl
-* Put mongourl in Procfile `web: node . --db 'mongourl'`
-* Example `web: node . -- db 'Your Mongo URI'`
-
-
-
-## FOR TERMUX/UBUNTU/SSH USER
-
-```bash
-apt update && apt upgrade
-apt install git -y
-apt install nodejs -y
-apt install ffmpeg -y
-git clone https://github.com/DikaArdnt/Hisoka-Morou
-cd Hisoka-Morou
-npm install
-```
-
-## IF ERROR INSTALL MODULE FOR TERMUX
-
-```bash
-pkg install yarn
-yarn
-```
-
-## Installing
-```bash
-$ node .
-```
-
-## ❗ Warning
-WhatsApp bot is still in the development stage, so there are a few bugs
-WhatsApp Connection (BETA, not working perfectly)
-
-Editing Number Owner & session name in [`config.js`](https://github.com/DikaArdnt/Hisoka-Morou/blob/master/config.js)
-Get Apikey zenz on [`zenz`](https://zenzapi.xyz/pricing)
-
-
-## Thanks To
-* [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
-* [`Nurutomo`](https://github.com/Nurutomo)
-* [`Mhankbarbar`](https://github.com/MhankBarBar)
-* [`DikaArdnt`](https://github.com/DikaArdnt)
-
-License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
-
-Support Me
-* [`Paypal`](https://www.paypal.me/Cakhaho)
-* [`Saweria`](https://saweria.co/DikaArdnt)
-
-## Contact Me
-* [`Wangsap`](https://wa.me/6288292024190)
-* [`Igeh`](https://instagram.com/cak_haho)
-* [`Pesbuk`](https://www.facebook.com/Haho.id)
-
+------
